@@ -58,6 +58,7 @@ function create() {
      player = this.physics.add.sprite(100, 450, "dude");
 
      player.setBounce(0.2);
+     player.body.setGravityY(300);
      player.setCollideWorldBounds(true);
 
      this.anims.create({
